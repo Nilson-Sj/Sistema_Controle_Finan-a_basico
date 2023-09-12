@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Venom2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 10px;
+    margin: 50px;
+    font-weight: bolder;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #ccc;
+}
+
+.resume {
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume>div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px #111111;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #111111;
+    background-color: rgba(255, 255, 255, 0.863);
+    margin-top: 10px;
+}
+
+.incomes {
+    color: #00c9a7;
+}
+
+.expenses {
+    color: #d83121;
+}
+
+.total {
+    color: black;
+}
+
+.newItem {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.divDesc, .divType, .divAmount {
+    display: flex;
+    flex-direction: column;
+}
+.newItem>button {
+    background-color: #2c73d2;
+    color: white;
+    border: 1px solid white;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+    font-weight: bold;
+}
+
+.newItem>button:hover {
+    background-color: white;
+    color: #2c73d2;
+    border: 1px solid #2c73d2;
+}
+
+input,select {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.divTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+table {
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+th {
+    text-align: start;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 5px;
+}
+
+td {
+    border-bottom: 1px solid #111111;
+}
+
+i {
+    font-size: 25px;
+}
+
+.bxs-chevron-up-circle {
+    color: #00c9a7;
+}
+
+.bxs-chevron-down-circle {
+    color: #d83121;
+}
+
+.columnAction {
+    width: 40px;
+    text-align: center;
+}
+
+.columnAction>button {
+    background: transparent;
+    border: none;
+}
+
+.columnAmount {
+    width: 30%;
+}
+
+.columnType {
+    width: 80px;
+    text-align: center;
+}
